@@ -1,3 +1,3 @@
-# Projeto 
+# Kanban
 
-> Você pode visualizar a página [aqui](https://p.driven-paulaabro.com).
+> You can see the deploy [here](https://kanban.paulaabro.com).

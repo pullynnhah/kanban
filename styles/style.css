@@ -1,0 +1,76 @@
+body {
+  color: #333;
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 75px;
+}
+
+h1 {
+  font: 70px "Delius Swash Caps", cursive;
+}
+
+main {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #62d2a2;
+
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.kanban-column {
+  flex: 1;
+  background-color: #9df3c4;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #306c53;
+}
+
+.kanban-item-input {
+  background-color: #d7fbe8;
+  color: #306c53;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-size: 20px;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.kanban-add-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #62d2a2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #d7fbe8;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.kanban-add-btn:hover {
+  background-color: #306c53;
+}

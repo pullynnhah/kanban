@@ -5,20 +5,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Title</title>
+    <title>Kanban</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!-- fonts -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Montserrat:wght@400;600;800&display=swap"
+      rel="stylesheet" />
     <!-- stylesheets -->
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/media.css" />
   </head>
   <body>
+    <header>
+      <img src="images/checklist.png" alt="checklist icon" />
+      <h1>My Kanban</h1>
+    </header>
+
+    <main>
+      <div class="kanban-column">
+        <h2 contenteditable>To Do</h2>
+        <ul class="kanban-items">
+          <li contenteditable class="kanban-item-input">Do something</li>
+          <li contenteditable class="kanban-item-input">Do something</li>
+          <li contenteditable class="kanban-item-input">Do something</li>
+        </ul>
+        <button class="kanban-add-btn" type="button">
+          <ion-icon name="add"></ion-icon>
+        </button>
+      </div>
+      <div class="kanban-column">
+        <h2 contenteditable>Doing</h2>
+
+        <ul class="kanban-items">
+          <li contenteditable class="kanban-item-input">Do something</li>
+        </ul>
+        <button class="kanban-add-btn" type="button">
+          <ion-icon name="add"></ion-icon>
+        </button>
+      </div>
+      <div class="kanban-column">
+        <h2 contenteditable>Done</h2>
+        <ul class="kanban-items">
+          <li contenteditable class="kanban-item-input">Do something</li>
+        </ul>
+        <button class="kanban-add-btn" type="button">
+          <ion-icon name="add"></ion-icon>
+        </button>
+      </div>
+    </main>
+
     <!-- scripts -->
     <script src="scripts/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
